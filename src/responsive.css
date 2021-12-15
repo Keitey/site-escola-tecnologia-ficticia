@@ -1,0 +1,111 @@
+@media(max-width: 768px) {
+    .grid,
+    .grid-3{
+        grid-template-columns: 1fr;
+    }
+
+    .mostruario{
+        height: auto;
+        text-align: center;
+    }
+
+    .image {
+        width: 600px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+
+    .copyright,
+    .redes-sociais{
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        height: 100px;
+        width: 384px;
+        display: block;
+    }
+
+    .navbar .flex{
+        flex-direction: column;
+    }
+
+    .navbar a:hover {
+        color: white;
+        border-bottom: 2px solid black;
+    }
+
+    .navbar ul {
+        background: #845EC2;
+        border-radius: 5px;
+        padding: 10px 0;
+    }
+
+    h2,
+    .supporting-text{
+        width: 364px;
+    }
+
+    .grid-item-1{
+        width: auto;
+    }
+
+    .little-info{
+        width: 354px;
+        margin: auto;
+        padding-top: 5px;
+    }
+
+    .mostruario p{
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .mostruario{
+        width: 384px;
+        background: #845EC2;
+    }
+
+    form{
+        display: block;
+        width: 340px;
+        padding: 10px;
+    }
+
+    .mostruario input[type='email']{
+        margin-bottom: 10px;
+        width: 260px;
+    }
+
+    .btn{
+        width: 200px;
+        padding: 10px;
+    }
+
+    .image{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .flex{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .stat{
+        width: 255px;
+        margin: auto;
+    }
+
+    .card{
+        margin: auto;
+        width: 255px;
+    }
+
+    footer{
+        width: 384px; 
+    }
+}
